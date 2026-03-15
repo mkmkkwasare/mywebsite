@@ -45,12 +45,31 @@ border-radius:5px;
 font-size:16px;
 }
 
-</style>
+</style>input, textarea{
+width:80%;
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+textarea{
+height:100px;
+}
 
 </head>
 
 <body>
+<h2>Contact Me</h2>
 
+<form>
+<input type="text" placeholder="Your Name" required><br><br>
+
+<input type="email" placeholder="Your Email" required><br><br>
+
+<textarea placeholder="Your Message"></textarea><br><br>
+
+<button type="submit">Send Message</button>
+</form>
 <div class="navbar">
 <a href="#">Home</a>
 <a href="#">About</a>
